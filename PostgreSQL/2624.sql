@@ -1,1 +1,2 @@
-select count(DISTINCT city) from customers
+select count(DISTINCT city)
+from customers

@@ -1,3 +1,5 @@
-SELECT concat('Approved: ',name),grade
+SELECT concat('Approved: ', name),
+    grade
 from students
-where grade >=7 order by grade desc
+where grade >= 7
+order by grade desc

@@ -1,2 +1,3 @@
-SELECT city from customers
+SELECT city
+from customers
 group by city

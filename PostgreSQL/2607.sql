@@ -1,1 +1,4 @@
-select city from providers group by city order by city asc
+select city
+from providers
+group by city
+order by city asc
