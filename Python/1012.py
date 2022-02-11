@@ -1,0 +1,10 @@
+line1 = input().split(" ")
+pi = 3.14159
+a = float(line1[0])
+b = float(line1[1])
+c = float(line1[2])
+print("TRIANGULO: %.3f" % ((a * c) / 2))
+print("CIRCULO: %.3f" % (pi * c * c))
+print("TRAPEZIO: %.3f" % ((a + b) * c / 2))
+print("QUADRADO: %.3f" % (b * b))
+print("RETANGULO: %.3f" % (a * b))

@@ -1,0 +1,11 @@
+var input = `3.0 4.0 5.2`;
+var lines = input.split(/[\s]/);
+let pi = 3.14159;
+let a = lines[0];
+let b = lines[1];
+let c = lines[2];
+console.log("TRIANGULO: " + ((a * c) / 2).toFixed(3));
+console.log("CIRCULO: " + (pi * c * c).toFixed(3));
+console.log("TRAPEZIO: " + (((Number(a) + Number(b)) * c) / 2).toFixed(3));
+console.log("QUADRADO: " + (b * b).toFixed(3));
+console.log("RETANGULO: " + (a * b).toFixed(3));
