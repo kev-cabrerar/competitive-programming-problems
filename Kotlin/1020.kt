@@ -7,5 +7,4 @@ fun main() {
     val mes = (edad%365)/30;
     val dia = (edad%365)%30;
     println("$ano ano(s)\n$mes mes(es)\n$dia dia(s)");
-    
 }
